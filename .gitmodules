@@ -1,0 +1,3 @@
+[submodule "koth"]
+	path = koth
+	url = git@github.com:ev275/koth.git

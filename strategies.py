@@ -9,9 +9,18 @@ import random
 from engine_wrapper import MinimalEngine
 from typing import Any
 
+from koth/evaluation.mixins import PieceSquareMixin, PieceValueMixin
+from koth/search.alphabeta import AlphaBetaMixin
+
+class GoodEngine(AlphaBetaMixin, PieceValueMixin, PieceSquareMixin):
+    pass
 
 class ExampleEngine(MinimalEngine):
     pass
+
+class MyEngine(MinimalEngine):
+    def search(self, board: chess.Board, *args: Any) -> PlayResult:
+        return PlayResult(random.choice(list(board.legal_moves)), None)
 
 
 # Strategy names and ideas from tom7's excellent eloWorld video

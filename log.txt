@@ -1,0 +1,37 @@
+2023-03-16 14:10:30,004 __main__ INFO 
+    .   _/|
+    .  // o\
+    .  || ._)  lichess-bot 2023.3.8.1
+    .  //__\
+    .  )___(   Play on Lichess with a bot
+    
+2023-03-16 14:10:30,300 __main__ INFO Welcome emrata69_bot!
+2023-03-16 14:10:30,303 __main__ INFO You're now connected to https://lichess.org/ and awaiting challenges.
+2023-03-16 14:11:02,409 matchmaking INFO BOT emrata69_bot (2000?) declined Correspondence casual challenge from emrata69 (1500?) (ghIlkTUT): I'm not accepting challenges with this time control.
+2023-03-16 14:15:48,290 matchmaking INFO BOT emrata69_bot (2000?) declined Correspondence casual challenge from emrata69 (1500?) (Fj4NQab6): I'm not accepting challenges with this time control.
+2023-03-16 14:17:12,239 matchmaking INFO BOT emrata69_bot (2000?) declined Correspondence casual challenge from emrata69 (1500?) (IC0sOoMt): I'm not accepting challenges with this time control.
+2023-03-16 14:19:03,439 __main__ INFO Accept Blitz casual challenge from emrata69 (1500?) (ZXHNQch3)
+2023-03-16 14:19:03,712 __main__ INFO --- Process Queued. Count: 1. IDs: {'ZXHNQch3'}
+2023-03-16 14:19:03,713 __main__ INFO --- Process Used. Count: 1. IDs: {'ZXHNQch3'}
+2023-03-16 14:19:04,027 __mp_main__ INFO +++ https://lichess.org/ZXHNQch3/black Blitz vs emrata69 (1500?) (ZXHNQch3)
+2023-03-16 14:19:09,241 conversation INFO *** https://lichess.org/ZXHNQch3/black [player] emrata69_bot: Hi! I'm emrata69_bot. Good luck! Type !help for a list of commands I can respond to.
+2023-03-16 14:19:09,510 conversation INFO *** https://lichess.org/ZXHNQch3/black [spectator] emrata69_bot: Hi! I'm emrata69_bot. Type !help for a list of commands I can respond to.
+2023-03-16 14:19:09,593 __mp_main__ INFO 
+2023-03-16 14:19:09,593 __mp_main__ INFO move: 1
+2023-03-16 14:19:09,594 engine_wrapper INFO Searching for time 10000 for game ZXHNQch3
+2023-03-16 14:19:09,676 conversation INFO *** https://lichess.org/ZXHNQch3/black [player] emrata69_bot: b"Hi! I'm emrata69_bot. Good luck! Type !help for a list of commands I can respond to."
+2023-03-16 14:19:09,677 conversation INFO *** https://lichess.org/ZXHNQch3/black [spectator] emrata69_bot: b"Hi! I'm emrata69_bot. Type !help for a list of commands I can respond to."
+2023-03-16 14:19:12,096 __mp_main__ INFO 
+2023-03-16 14:19:12,096 __mp_main__ INFO move: 2
+2023-03-16 14:19:12,097 engine_wrapper INFO Searching for wtime 300660 btime 298000 for game ZXHNQch3
+2023-03-16 14:19:13,676 __mp_main__ INFO 
+2023-03-16 14:19:13,676 __mp_main__ INFO move: 3
+2023-03-16 14:19:13,676 engine_wrapper INFO Searching for wtime 302260 btime 300900 for game ZXHNQch3
+2023-03-16 14:19:16,935 __mp_main__ INFO emrata69 won!
+2023-03-16 14:19:16,935 __mp_main__ INFO Game won by checkmate.
+2023-03-16 14:19:16,936 conversation INFO *** https://lichess.org/ZXHNQch3/black [player] emrata69_bot: Good game!
+2023-03-16 14:19:16,938 __main__ INFO +++ Process Freed. Count: 0. IDs: None
+2023-03-16 14:19:17,018 conversation INFO *** https://lichess.org/ZXHNQch3/black [spectator] emrata69_bot: Thanks for watching!
+2023-03-16 14:19:17,184 __mp_main__ INFO --- https://lichess.org/ZXHNQch3/black Game over
+2023-03-16 14:19:17,185 __main__ INFO +++ Process Freed. Count: 0. IDs: None
+2023-03-16 14:22:20,844 __main__ INFO Terminated
