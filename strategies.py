@@ -23,7 +23,7 @@ class GoodEngine(AlphaBetaMixin, PieceValueMixin, PieceSquareMixin):
 
 class MyEngine(MinimalEngine):
     def search(self, board: chess.Board, *args: Any) -> PlayResult:
-        score, pv = GoodEngine(board, TOP_SYMMETRIC_TABLE).search(-INFINITE, +INFINITE, 4)
+        score, pv = GoodEngine(board, TOP_SYMMETRIC_TABLE).search(-INFINITE, +INFINITE, 5)
 
         # safety net for when no good move is found
         if not pv: 
