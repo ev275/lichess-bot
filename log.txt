@@ -35,3 +35,77 @@
 2023-03-16 14:19:17,184 __mp_main__ INFO --- https://lichess.org/ZXHNQch3/black Game over
 2023-03-16 14:19:17,185 __main__ INFO +++ Process Freed. Count: 0. IDs: None
 2023-03-16 14:22:20,844 __main__ INFO Terminated
+2023-03-16 15:06:50,033 __main__ INFO 
+    .   _/|
+    .  // o\
+    .  || ._)  lichess-bot 2023.3.8.1
+    .  //__\
+    .  )___(   Play on Lichess with a bot
+    
+2023-03-16 15:06:50,324 __main__ INFO Welcome emrata69_bot!
+2023-03-16 15:06:50,327 __main__ INFO You're now connected to https://lichess.org/ and awaiting challenges.
+2023-03-16 15:06:51,351 __main__ INFO --- Process Used. Count: 1. IDs: {'iFXEhDNF'}
+2023-03-16 15:06:51,628 backoff INFO Backing off play_game(...) for 0.5s (ModuleNotFoundError: No module named 'evaluation')
+2023-03-16 15:06:52,424 backoff INFO Backing off play_game(...) for 1.7s (ModuleNotFoundError: No module named 'evaluation')
+2023-03-16 15:06:54,394 backoff INFO Backing off play_game(...) for 1.5s (ModuleNotFoundError: No module named 'evaluation')
+2023-03-16 15:06:56,186 backoff INFO Backing off play_game(...) for 3.7s (ModuleNotFoundError: No module named 'evaluation')
+2023-03-16 15:07:00,117 backoff INFO Backing off play_game(...) for 10.7s (ModuleNotFoundError: No module named 'evaluation')
+2023-03-16 15:07:11,042 backoff INFO Backing off play_game(...) for 1.0s (ModuleNotFoundError: No module named 'evaluation')
+2023-03-16 15:07:12,368 backoff INFO Backing off play_game(...) for 58.7s (ModuleNotFoundError: No module named 'evaluation')
+2023-03-16 15:08:11,438 __mp_main__ INFO +++ https://lichess.org/iFXEhDNF/black Blitz vs emrata69 (1500?) (iFXEhDNF)
+2023-03-16 15:08:11,438 conversation INFO *** https://lichess.org/iFXEhDNF/black [player] emrata69_bot: Hi! I'm emrata69_bot. Good luck! Type !help for a list of commands I can respond to.
+2023-03-16 15:08:11,691 conversation INFO *** https://lichess.org/iFXEhDNF/black [spectator] emrata69_bot: Hi! I'm emrata69_bot. Type !help for a list of commands I can respond to.
+2023-03-16 15:08:11,771 __mp_main__ INFO 
+2023-03-16 15:08:11,771 __mp_main__ INFO move: 1
+2023-03-16 15:08:11,771 engine_wrapper INFO Searching for time 10000 for game iFXEhDNF
+2023-03-16 15:08:12,094 conversation INFO *** https://lichess.org/iFXEhDNF/black [player] emrata69_bot: b"Hi! I'm emrata69_bot. Good luck! Type !help for a list of commands I can respond to."
+2023-03-16 15:08:12,095 conversation INFO *** https://lichess.org/iFXEhDNF/black [spectator] emrata69_bot: b"Hi! I'm emrata69_bot. Type !help for a list of commands I can respond to."
+2023-03-16 15:08:21,922 __mp_main__ INFO 
+2023-03-16 15:08:21,922 __mp_main__ INFO move: 2
+2023-03-16 15:08:21,922 engine_wrapper INFO Searching for wtime 293250 btime 298000 for game iFXEhDNF
+2023-03-16 15:08:29,798 __mp_main__ INFO 
+2023-03-16 15:08:29,799 __mp_main__ INFO move: 3
+2023-03-16 15:08:29,799 engine_wrapper INFO Searching for wtime 288900 btime 300560 for game iFXEhDNF
+2023-03-16 15:08:31,688 __mp_main__ INFO 
+2023-03-16 15:08:31,688 __mp_main__ INFO move: 4
+2023-03-16 15:08:31,688 engine_wrapper INFO Searching for wtime 290550 btime 303110 for game iFXEhDNF
+2023-03-16 15:08:36,578 __mp_main__ INFO 
+2023-03-16 15:08:36,579 __mp_main__ INFO move: 5
+2023-03-16 15:08:36,579 engine_wrapper INFO Searching for wtime 289130 btime 305720 for game iFXEhDNF
+2023-03-16 15:08:39,345 __mp_main__ INFO 
+2023-03-16 15:08:39,346 __mp_main__ INFO move: 6
+2023-03-16 15:08:39,346 engine_wrapper INFO Searching for wtime 289680 btime 308480 for game iFXEhDNF
+2023-03-16 15:08:41,288 __mp_main__ INFO 
+2023-03-16 15:08:41,289 __mp_main__ INFO move: 7
+2023-03-16 15:08:41,289 engine_wrapper INFO Searching for wtime 291030 btime 311270 for game iFXEhDNF
+2023-03-16 15:08:42,668 __mp_main__ INFO 
+2023-03-16 15:08:42,668 __mp_main__ INFO move: 8
+2023-03-16 15:08:42,668 engine_wrapper INFO Searching for wtime 293000 btime 314000 for game iFXEhDNF
+2023-03-16 15:08:44,095 __mp_main__ INFO 
+2023-03-16 15:08:44,095 __mp_main__ INFO move: 9
+2023-03-16 15:08:44,095 engine_wrapper INFO Searching for wtime 294890 btime 316770 for game iFXEhDNF
+2023-03-16 15:08:45,871 __mp_main__ INFO 
+2023-03-16 15:08:45,871 __mp_main__ INFO move: 10
+2023-03-16 15:08:45,871 engine_wrapper INFO Searching for wtime 296520 btime 319440 for game iFXEhDNF
+2023-03-16 15:08:48,617 __mp_main__ INFO 
+2023-03-16 15:08:48,617 __mp_main__ INFO move: 11
+2023-03-16 15:08:48,617 engine_wrapper INFO Searching for wtime 297440 btime 321860 for game iFXEhDNF
+2023-03-16 15:08:51,097 __mp_main__ INFO 
+2023-03-16 15:08:51,098 __mp_main__ INFO move: 12
+2023-03-16 15:08:51,098 engine_wrapper INFO Searching for wtime 298620 btime 324280 for game iFXEhDNF
+2023-03-16 15:08:54,499 __mp_main__ INFO 
+2023-03-16 15:08:54,500 __mp_main__ INFO move: 13
+2023-03-16 15:08:54,500 engine_wrapper INFO Searching for wtime 298860 btime 326720 for game iFXEhDNF
+2023-03-16 15:08:55,718 __mp_main__ INFO 
+2023-03-16 15:08:55,718 __mp_main__ INFO move: 14
+2023-03-16 15:08:55,718 engine_wrapper INFO Searching for wtime 300870 btime 329580 for game iFXEhDNF
+2023-03-16 15:08:56,837 __mp_main__ INFO 
+2023-03-16 15:08:56,838 __mp_main__ INFO move: 15
+2023-03-16 15:08:56,838 engine_wrapper INFO Searching for wtime 303060 btime 332360 for game iFXEhDNF
+2023-03-16 15:08:57,938 __mp_main__ INFO 
+2023-03-16 15:08:57,938 __mp_main__ INFO move: 16
+2023-03-16 15:08:57,939 engine_wrapper INFO Searching for wtime 305210 btime 335190 for game iFXEhDNF
+2023-03-16 15:09:00,061 __mp_main__ INFO 
+2023-03-16 15:09:00,062 __mp_main__ INFO move: 17
+2023-03-16 15:09:00,062 engine_wrapper INFO Searching for wtime 306410 btime 337950 for game iFXEhDNF
+2023-03-16 15:09:51,782 __main__ INFO Terminated

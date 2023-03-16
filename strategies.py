@@ -9,18 +9,29 @@ import random
 from engine_wrapper import MinimalEngine
 from typing import Any
 
-from koth/evaluation.mixins import PieceSquareMixin, PieceValueMixin
-from koth/search.alphabeta import AlphaBetaMixin
+from evaluation.mixins import PieceSquareMixin, PieceValueMixin
+from search.alphabeta import AlphaBetaMixin
+from output_tables import TOP_SYMMETRIC_TABLE, TOP_NON_SYMMETRIC_TABLE
+from definitions import INFINITE
 
-class GoodEngine(AlphaBetaMixin, PieceValueMixin, PieceSquareMixin):
-    pass
 
 class ExampleEngine(MinimalEngine):
     pass
 
+class GoodEngine(AlphaBetaMixin, PieceValueMixin, PieceSquareMixin):
+    pass
+
 class MyEngine(MinimalEngine):
     def search(self, board: chess.Board, *args: Any) -> PlayResult:
-        return PlayResult(random.choice(list(board.legal_moves)), None)
+        score, pv = GoodEngine(board, TOP_SYMMETRIC_TABLE).search(-INFINITE, +INFINITE, 4)
+
+        # safety net for when no good move is found
+        if not pv: 
+            pv = [move for move in board.legal_moves]
+
+        # find best move
+        best_move = pv[0] # could set to random.choice(pv) instead for variablility
+        return PlayResult(best_move, None)
 
 
 # Strategy names and ideas from tom7's excellent eloWorld video
