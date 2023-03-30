@@ -18,3 +18,4 @@
 
 
 PIECE_VALUES = [None, 100, 300, 300, 500, 900, 0]
+ANTI_PIECE_VALUES = [None, -100, -300, -300, -500, -900, 0]

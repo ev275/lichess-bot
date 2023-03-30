@@ -20,7 +20,7 @@
 import chess
 
 # from evaluation.piece_square_tables import PIECE_SQUARE_TABLES
-from evaluation.piece_values import PIECE_VALUES
+from evaluation.piece_values import PIECE_VALUES, ANTI_PIECE_VALUES
 from typing import List
 
 

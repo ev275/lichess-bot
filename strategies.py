@@ -11,7 +11,7 @@ from typing import Any
 
 from evaluation.mixins import PieceSquareMixin, PieceValueMixin
 from search.alphabeta import AlphaBetaMixin
-from output_tables import TOP_SYMMETRIC_TABLE, TOP_NON_SYMMETRIC_TABLE
+from output_tables import TOP_SYMMETRIC_TABLE, TOP_NON_SYMMETRIC_TABLE, TOP_ANTICHESS_SYMMETRIC_TABLE
 from definitions import INFINITE
 
 
