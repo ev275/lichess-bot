@@ -1,4 +1,4 @@
-token: "lip_ggF2fUJpzKVhAb7t4rid"    # Lichess OAuth2 Token.
+token: "lip_XufxHcVuHRCkMLXsKaRO"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -114,7 +114,7 @@ correspondence:
   ponder: false            # Ponder in correspondence games the bot is connected to.
 
 challenge:                   # Incoming challenges.
-  concurrency: 1             # Number of games to play simultaneously.
+  concurrency: 5             # Number of games to play simultaneously.
   sort_by: "best"            # Possible values: "best" and "first".
   accept_bot: false          # Accepts challenges coming from other bots.
   only_bot: false            # Accept challenges by bots only.
@@ -127,15 +127,15 @@ challenge:                   # Incoming challenges.
   min_days: 1                # Minimum number of days per move to accept a challenge for a correspondence game.
   variants:                  # Chess variants to accept (https://lichess.org/variant).
     - standard
-#   - fromPosition
-#   - antichess
-#   - atomic
-#   - chess960
-#   - crazyhouse
-#   - horde
+    - fromPosition
+    - antichess
+    - atomic
+    - chess960
+    - crazyhouse
+    - horde
     - kingOfTheHill
-#   - racingKings
-#   - threeCheck
+    - racingKings
+    - threeCheck
   time_controls:             # Time controls to accept.
     - bullet
     - blitz
