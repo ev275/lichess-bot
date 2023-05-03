@@ -11,7 +11,7 @@ from typing import Any
 
 from evaluation.mixins import PieceSquareMixin, PieceValueMixin
 from search.alphabeta import AlphaBetaMixin
-from output_tables import TOP_SYMMETRIC_TABLE, TOP_NON_SYMMETRIC_TABLE, TOP_ANTICHESS_SYMMETRIC_TABLE
+from output_tables import TOP_SYMMETRIC_TABLE
 from definitions import INFINITE
 
 
@@ -30,7 +30,7 @@ class MyEngine(MinimalEngine):
             pv = [move for move in board.legal_moves]
 
         # find best move
-        best_move = pv[0] # could set to random.choice(pv) instead for variablility
+        best_move = pv[0]
         return PlayResult(best_move, None)
 
 
